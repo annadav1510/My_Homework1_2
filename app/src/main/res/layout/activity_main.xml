@@ -26,7 +26,7 @@
         android:textColorHighlight="@color/black"
         android:layout_margin="10dp"
         android:layout_gravity="right"
-        android:lineHeight="20dp"/>
+        android:lineHeight="20dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
         android:textSize="15dp"
         android:textColor="#ff5667"
         android:layout_gravity="center"
-        android:layout_margin="15dp"/>
+        android:layout_margin="15dp" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -45,6 +45,16 @@
         android:inputType="number"
         android:text="order number"
         android:textColorHighlight="#ff0101"
-        android:layout_margin="15dp"/>
+        android:layout_margin="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:text="Your password"
+        android:layout_margin="10dp"
+        android:layout_gravity="right"
+        android:lineHeight="@dimen/material_emphasis_disabled" />
 
 </LinearLayout>
